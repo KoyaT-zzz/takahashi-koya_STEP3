@@ -1,0 +1,218 @@
+/* 全体のベース設定 */
+body {
+  /* TODO: フォントを設定しよう */
+    font-family: "Yu Gothic", "Helvetica", sans-serif;
+
+  /* TODO: 背景色を設定しよう */
+    background-color: #f18c8c;
+
+  /* TODO: 文字色を設定しよう */
+    color: #333;
+
+  /* TODO: 行の高さを設定しよう */
+    line-height: 1.5;
+  /* TODO: 外側余白をリセットしよう */
+    margin: 0;
+
+  /* TODO: 内側余白もリセットしよう */
+    padding: 0;
+
+}
+
+/* 各要素に余白をつけて整えましょう */
+main, section, header, footer, aside, nav {
+    padding: 20px;
+  /* TODO: セクションの内側余白を設定 */
+}
+
+/* ヘッダー */
+header {
+  /* TODO: 背景色を設定しよう */
+    background-color: #feffaa;
+
+  /* TODO: 文字色を設定しよう */
+    color: #232121;
+
+  /* TODO: テキストを中央揃えにしよう */
+    text-align: center;
+
+  /* TODO: 上下の余白を設定 */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ナビゲーション全体 */
+nav {
+  background-color: #eee;
+  padding: 10px 20px;
+  /* TODO: 背景色を設定 */
+  
+  /* TODO: 内側余白を設定 */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* TODO: リストの記号を消そう */
+  
+  /* TODO: 内側余白をリセット */
+  
+  /* TODO: 横並びにしよう */
+  
+  /* TODO: 折り返しを許可しよう */
+}
+
+nav li {
+  margin-right: 15px;
+  /* TODO: リンクの間に右余白をつけよう */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  /* TODO: 下線を消そう */
+  
+  /* TODO: リンクの文字色を設定 */
+  
+  /* TODO: 少し太字にしよう */
+}
+
+nav a:hover {
+  color: #4CAF50;
+  font-weight: bold;
+  /* TODO: ホバー時の色変更 */
+  
+  /* TODO: 太字で強調 */
+  
+  /* TODO: 下線を表示 */
+}
+
+/* セクション見出し */
+section h2 {
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  /* TODO: 下線（border）を追加 */
+  
+  /* TODO: 下に余白を設定 */
+  
+  /* TODO: 上に余白を設定 */
+  
+  /* TODO: フォントサイズを大きく */
+}
+
+
+/* 表 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  /* TODO: 表を横幅いっぱいに広げる */
+  
+  /* TODO: 境界線を1本化する */
+  
+  /* TODO: 上に余白を */
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  /* TODO: 枠線をつけよう */
+  
+  /* TODO: セル内余白を設定 */
+  
+  /* TODO: 文字を左揃えに */
+}
+
+th {
+  background-color: #f0f0f0;
+  /* TODO: 背景色で見出しを目立たせる */
+}
+
+/* フォーム全体 */
+form {
+  margin-top: 20px;
+  /* TODO: 上に余白を追加 */
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* TODO: 幅を100%にする */
+  
+  /* TODO: 内側余白を追加 */
+  
+  /* TODO: 下に余白を設定 */
+  
+  /* TODO: 枠線を設定 */
+  
+  /* TODO: 角丸にする */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* TODO: 背景色を設定 */
+  
+  /* TODO: 文字色を白に */
+  
+  /* TODO: 枠線なしにする */
+  
+  /* TODO: クリックしやすく余白を追加 */
+  
+  /* TODO: 角を丸める */
+  
+  /* TODO: カーソルを指マークに */
+}
+
+button:hover {
+  background-color: #45a049;
+  /* TODO: 背景色を少し濃く変化 */
+}
+
+/* aside（補足情報） */
+aside {
+  background-color: #f1f1f1;
+  border-left: 5px solid #4CAF50;
+  margin: 30px 20px;
+  padding: 15px;
+  /* TODO: 背景色を設定 */
+  
+  /* TODO: 左にカラーの線をつける */
+  
+  /* TODO: 外側余白 */
+  
+  /* TODO: 内側余白 */
+}
+
+/* フッター */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  /* TODO: 背景色を設定 */
+  
+  /* TODO: 文字色を設定 */
+  
+  /* TODO: テキスト中央揃え */
+  
+  /* TODO: 内側余白 */
+  
+  /* TODO: 上に外側余白 */
+}
