@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>世界一甘いお店</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <!-- ヘッダー作成 -->
+  <header>
+      <h2>世界一甘いお店</h2>
+  </header>
+  <div class="content">
+  <nav class="sidebar">
+    <ul>
+      <li><a href="#section1">トップ</a></li>
+      <li><a href="#section2">新着情報</a></li>
+      <li><a href="https://www.quil-fait-bon.com/">おすすめのスイーツ</a></li>
+      <li><a href="#section4">お問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <main class="main">
+
+      <table border="3">
+        <tr>
+            <th>お名前</th>
+            <th><input type="text" size="40"></th>
+        </tr>
+        <tr>
+            <th>お近くのお店</th>
+            <th><select name="tenpo">
+                <option value="1">北海道</option>
+                <option value="2">東北</option>
+                <option value="3">関東</option>
+                <option value="4">中部</option>
+                <option value="5">関西</option>
+                <option value="6">中国・四国</option>
+                <option value="7">九州・沖縄</option>
+            </select></th>
+
+        </tr>
+        <tr>
+            <th>電話</th>
+            <th><input type="text" size="40"></th>
+        </tr>
+        <tr>
+            <th>電話番号</th>
+            <th><input type="text" size="40"></th>
+        </tr>
+        <tr>
+            <th>メールアドレス</th>
+            <th><input type="text" size="40"></th>
+        </tr>
+        <tr>
+            <th>お問い合わせ種別</th>
+            <th class="radio">
+              <input type="radio" name="shubetu"> 商品について
+              <input type="radio" name="shubetu"> 従業員について
+            </th>
+        </tr>
+        <tr>
+            <th>お問い合わせ内容</th>
+            <th><textarea cols="30" rows="5"></textarea></th>
+        </tr>
+
+
+    </table>
+
+    <br>
+
+        <!-- 送信ボタン -->
+        <div class="submit-area">
+        <button type="submit">送信</button>
+        </div>
+
+      </main>
+  </div>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; minna de inmame </p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+/* 全体のベース設定 */
+body {
+    font-family: "Yu Gothic", "Helvetica", sans-serif;
+    color: #000000;
+}
+
+/* 画面いっぱいにしない */
+.wrapper{
+  width: 900px;
+  margin:0 auto;
+}
+/* 余白をつける */
+main, section, header, footer, aside, nav {
+    padding: 20px;
+}
+
+/* ヘッダー */
+header {
+    background-color: #feffaa;
+    color: #232121;
+    text-align: center;   /* : テキストを中央揃えに */
+    padding: 15px;
+}
+
+/* sideとmainを横に配置 */
+.content{
+  display: flex;
+}
+
+/* リンクの部分 */
+.sidebar ul{
+  display: block;
+  list-style-type: disc;
+  text-decoration: underline;
+  padding: 20px;
+}
+
+/* サイドバー設定 */
+nav {
+  background-color: #7fffd4;
+}
+
+/* リンクの文字設定 */
+nav a {
+  color: #333;
+  font-weight: bold;
+}
+
+/* リンクの文字　ホバー時 */
+nav a:hover {
+  color: #effff8;
+  font-weight: bold;
+}
+
+/* main */
+main {
+  background-color: #fcf1e1;
+  flex: 1;
+}
+/* 表の設定 */
+table {
+  width: 100%;
+  border-collapse: separate;
+  margin-top: 15px;
+}
+
+/* 表の細かい設定 */
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  box-sizing: border-box;
+  border: 2px solid #7c7c7c;
+  border-radius: 5px;
+}
+
+/* 選択肢の配置 */
+.radio{
+  text-align: left;
+}
+
+/* 送信ボタン（サイズ）設定 */
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* 送信ボタンにカーソルを合わせた時 */
+button:hover {
+  background-color: #a1e5a4;
+}
+
+/* 送信ボタン配置 */
+.submit-area {
+  margin-top: auto;
+  text-align: right;
+}
+
+/* フッター */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
